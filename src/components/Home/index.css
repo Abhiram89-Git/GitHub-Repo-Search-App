@@ -1,0 +1,152 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6f8fa;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+.logo-dis {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  width: 320px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #0366d6;
+}
+
+.filter-icon {
+  font-size: 22px;
+  cursor: pointer;
+  color: gray;
+}
+
+.filter-icon.active {
+  color: #000;
+}
+
+.status {
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.status.error {
+  color: red;
+}
+
+.repo-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.repo-card {
+  display: flex;
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 10px;
+  width: 340px;
+  align-items: center;
+  justify-content: space-around;
+  transition: box-shadow 0.3s ease;
+}
+
+.repo-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.repo-details {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.repo-details h3 {
+  margin: 0;
+}
+
+.repo-details a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.repo-details a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.repo-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: #333;
+}
+
+.bookmark-icon {
+  font-size: 22px;
+  cursor: pointer;
+  color: gray;
+}
+
+.bookmark-icon.bookmarked {
+  color: #ffb400;
+}
+.repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.repo-card {
+  display: flex;
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  flex: 1 1 300px;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease;
+}
+
+.repo-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
